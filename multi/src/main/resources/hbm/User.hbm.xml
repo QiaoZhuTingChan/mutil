@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated Aug 31, 2018 7:47:08 AM by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="com.jyd.multi.bean.User" table="user">
+        <id name="id" type="int">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="name" type="java.lang.String">
+            <column name="name" />
+        </property>
+    </class>
+</hibernate-mapping>
